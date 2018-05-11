@@ -16,7 +16,7 @@ def assign_rooms(speakers)
   #room_numbers = 1
   new_array = []
   speakers.each_with_index do |name, index|
-  new_array << "Hello, #{name}. You'll be assigned to room #{index + 1}."
+  new_array << "Hello, #{name}! You'll be assigned to room #{index + 1}."
   #room_numbers += 1 
 end   
   new_array
